@@ -3,6 +3,6 @@
   "rules": {
     "react/no-unescaped-entities": "off",
     "react/no-unused-vars": "off",
-    "no-empty-interface": "off"
+    "/no-empty-interface": "off"
   }
 }
