@@ -8,7 +8,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import SkillsSection from '@/components/ui/SkillsSelection';
 
-import { Code, Github, Linkedin, Mail, Moon, Send, Sun, FolderCode, ChartCandlestick, ChevronDown} from "lucide-react";
+import {Github, Linkedin, Mail, Moon, Send, Sun, FolderCode, ChartCandlestick, ChevronDown} from "lucide-react";
 import { useTheme } from "next-themes";
 import Link from 'next/link';
 
