@@ -130,7 +130,7 @@ export default function Portfolio() {
       <section id="home" className="flex flex-col items-center justify-center min-h-screen text-center px-4 pt-10">
         <div className="mb-8">
           <Image
-            src="/images/IMG_7948.jpg"
+            src="/images/IMG_7948.JPG"
             alt="Jeremy Myo"
             width={250}
             height={250}
