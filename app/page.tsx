@@ -27,9 +27,6 @@ export default function Portfolio() {
   const { theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
 
-  const [isVisible, setIsVisible] = useState(true);
-  const [scrollY, setScrollY] = useState(0);
-
 
   useEffect(() => {
     setMounted(true);
@@ -90,25 +87,6 @@ export default function Portfolio() {
       });
     }
   };
-
-  useEffect(() => {
-    const handleScroll = () => {
-      setScrollY(window.scrollY);
-      
-      // Adjust this value based on when you'd like the button to fade out
-      if (window.scrollY > 400) {
-        setIsVisible(false);
-      } else {
-        setIsVisible(true);
-      }
-    };
-
-    window.addEventListener('scroll', handleScroll);
-    
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
 
   return (
     <div className="min-h-screen bg-background text-foreground">
@@ -272,7 +250,7 @@ export default function Portfolio() {
                   priority={true}
                   className="mx-auto"  // Ensures the image is centered
                 />
-                <p className="font-semibold mt-4">National University of Singapore (NUS)</p>
+                <p className="font-semibold mt-4">National University of Singapore NUS</p>
                 <p className="text-sm text-muted-foreground">BSc Business Analytics, 2021-2025</p>
               </div>
             </div>
