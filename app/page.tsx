@@ -134,6 +134,8 @@ export default function Portfolio() {
             alt="Jeremy Myo"
             width={250}
             height={250}
+            quality={100}
+            unoptimized
             className="rounded-full border-2 border-primary"
           />
         </div>
