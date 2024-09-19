@@ -128,18 +128,13 @@ export default function Portfolio() {
 
       {/* Hero Section */}
       <section id="home" className="flex flex-col items-center justify-center min-h-screen text-center px-4 pt-10">
-        <div className="relative rounded-full p-1 bg-gradient-to-r from-teal-400 via-blue-500 to-purple-500">
-          <div className="absolute inset-0 rounded-full bg-gradient-to-r from-teal-400 via-blue-500 to-purple-500 animate-spin-slow">
-            {/* Empty div for the spinning gradient border */}
-          </div>
+        <div className="mb-8">
           <Image
             src="/images/IMG_7948.jpg"
             alt="Jeremy Myo"
-            quality={100}
-            unoptimized
             width={250}
             height={250}
-            className="rounded-full relative z-10"
+            className="rounded-full border-2 border-primary"
           />
         </div>
 
