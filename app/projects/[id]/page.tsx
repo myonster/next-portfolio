@@ -12,11 +12,11 @@ import LoadingSpinner from "@/components/LoadingSpinner";
 const projects = [
   {
     id: 'property-management-app',
-    title: 'Property Management Platform',
+    title: 'Singapore Property Management Platform',
     description: 'A full-stack property management solution designed to help users track, manage, and optimize their real estate investments',
     image: '/images/OverviewArchitecture.jpg',
-    sourceCode: 'https://github.com/example/property-management-app',
-    liveDemo: 'https://example-property.vercel.app',
+    sourceCode: 'https://github.com/BT3103AppDev1/final-project-group-1',
+    liveDemo: 'https://propertynirvana-82d24.web.app/',
     features: [
       'Comprehensive Property Analytics Dashboard',
       'Investment Property Tenancy Tracker',
@@ -27,6 +27,7 @@ const projects = [
       'Mortgage Calculator',
       'User authentication and registration',
       'Interactive Google Maps for property display',
+      'Test user login details, User: testuser@test.com Password: 123456'
     ],
     technologies: ['Vue.js', 'Firebase', 'Bootstrap 5', 'OpenAI API', 'URA API', 'TheNewsAPI', 'OneMAP Singapore API']
   },
