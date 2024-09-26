@@ -31,22 +31,23 @@ const projects = [
     ],
     technologies: ['Vue.js', 'Firebase', 'Bootstrap 5', 'OpenAI API', 'URA API', 'TheNewsAPI', 'OneMAP Singapore API']
   },
-  { 
-    id: 'task-manager',
-    title: 'Task Management App', 
-    description: 'A productivity app created using React Native and Firebase',
-    image: '/placeholder.svg?height=400&width=800',
-    sourceCode: 'https://github.com/example/task-manager',
-    liveDemo: 'https://example-taskmanager.vercel.app',
+  {
+    id: 'sg-enviroment-dashboard',
+    title: 'Singapore Environment Live API Dashboard', 
+    description: 'A real-time weather and environment monitoring app built using React, Next.js, and external weather APIs',
+    image: '/weather-dashboard-placeholder.svg?height=400&width=800',
+    sourceCode: 'https://github.com/myonster/sg-environment-live',
+    liveDemo: 'https://sg-environment-live.pages.dev/',
     features: [
-      'User authentication',
-      'Create, edit, and delete tasks',
-      'Organize tasks into projects',
-      'Set due dates and priorities',
-      'Push notifications for task reminders',
+      'Real-time weather updates for multiple regions',
+      'Dynamic grouping of regions based on weather conditions',
+      'Display last updated timestamp for live data',
+      'Responsive design for mobile and desktop',
+      'Interactive data visualization using charts and maps'
     ],
-    technologies: ['React Native', 'Firebase', 'Expo', 'Redux', 'Push Notifications API']
-  },
+    technologies: ['React', 'Next.js', 'Tailwind CSS', 'data.gov.sg API', 'D3.js']
+}
+,
   { 
     id: 'data-viz',
     title: 'Data Visualization Dashboard', 

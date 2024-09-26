@@ -184,11 +184,11 @@ export default function Portfolio() {
                 sourceCode: 'https://github.com/BT3103AppDev1/final-project-group-1'
               },
               { 
-                id: 'task-manager',
-                title: 'Task Management App', 
-                description: 'A productivity app created using React Native and Firebase',
+                id: 'sg-enviroment-dashboard',
+                title: 'Environment Live API Dashboard', 
+                description: 'A enviroment app created using Nextjs and TailwindCSS',
                 image: '/placeholder.svg?height=200&width=400',
-                sourceCode: 'https://github.com/example/task-manager'
+                sourceCode: 'https://sg-environment-live.pages.dev/'
               },
               { 
                 id: 'data-viz',
