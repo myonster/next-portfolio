@@ -148,18 +148,25 @@ export default function Portfolio() {
           <span className="block mt-2 text-muted-foreground">Full Stack & Data Solutions</span>
         </p>
         <div className="flex justify-center space-x-4 mb-8">
-          <Button variant="outline" size="icon" className="rounded-full hover:bg-primary hover:text-primary-foreground transition-colors">
-            <Github className="h-5 w-5" />
-            <span className="sr-only">GitHub</span>
-          </Button>
-          <Button variant="outline" size="icon" className="rounded-full hover:bg-primary hover:text-primary-foreground transition-colors">
-            <Linkedin className="h-5 w-5" />
-            <span className="sr-only">LinkedIn</span>
-          </Button>
-          <Button variant="outline" size="icon" className="rounded-full hover:bg-primary hover:text-primary-foreground transition-colors">
-            <Mail className="h-5 w-5" />
-            <span className="sr-only">Email</span>
-          </Button>
+          <Link href="https://github.com/myonster" target="_blank" rel="noopener noreferrer">
+            <Button variant="outline" size="icon" className="rounded-full hover:bg-primary hover:text-primary-foreground transition-colors">
+              <Github className="h-5 w-5" />
+              <span className="sr-only">GitHub</span>
+            </Button>
+          </Link>
+          <Link href="https://www.linkedin.com/in/myo-nyi-nyi/" target="_blank" rel="noopener noreferrer">
+            <Button variant="outline" size="icon" className="rounded-full hover:bg-primary hover:text-primary-foreground transition-colors">
+              <Linkedin className="h-5 w-5" />
+              <span className="sr-only">LinkedIn</span>
+            </Button>
+          </Link>
+          <a href="mailto:e0773753@u.nus.edu">
+            <Button variant="outline" size="icon" className="rounded-full hover:bg-primary hover:text-primary-foreground transition-colors">
+              <Mail className="h-5 w-5" />
+              <span className="sr-only">Email</span>
+            </Button>
+          </a>
+
         </div>
          {/* Scroll down button */}
         <button
@@ -188,7 +195,7 @@ export default function Portfolio() {
                 title: 'Environment Live API Dashboard', 
                 description: 'A enviroment app created using Nextjs and TailwindCSS',
                 image: '/placeholder.svg?height=200&width=400',
-                sourceCode: 'https://sg-environment-live.pages.dev/'
+                sourceCode: 'https://github.com/myonster/sg-environment-live'
               },
               { 
                 id: 'data-viz',

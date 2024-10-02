@@ -35,7 +35,7 @@ const projects = [
     id: 'sg-enviroment-dashboard',
     title: 'Singapore Environment Live API Dashboard', 
     description: 'A real-time weather and environment monitoring app built using React, Next.js, and external weather APIs',
-    image: '/weather-dashboard-placeholder.svg?height=400&width=800',
+    image: '/environ-app-preview.png',
     sourceCode: 'https://github.com/myonster/sg-environment-live',
     liveDemo: 'https://sg-environment-live.pages.dev/',
     features: [
